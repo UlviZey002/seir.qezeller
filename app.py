@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return render_template('index.html')
-
+      <link rel="icon" type="image/png" href="Resimler/foto2.png">
 @app.route('/about')
 def about():
     return render_template('about.html')
